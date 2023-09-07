@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(237, 174, 119, 0.8);
+    /* perhaps 
+    background-color:pink;*/
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: normal;
+    font-style: bold;
+    font-family: Helvetica, Cambria;
+}
+a {
+    color: rgb(170, 67, 67); 
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+
+    color:burlywood;
+    font-size: 15px;
+}
+
+hr{
+    border-color: rgb(237, 113, 113);   
+}
+
+h6 {
+    text-transform: uppercase;
+}
+p{
+    font-size: 15px;
+    color: brown;
+}
+.almond {
+    color:brown;
+    font-weight: bold;
+    background-color:blanchedalmond;
+    padding: 50px 20px 50px 20px; /* padding: 50px 20px; */
+    margin: 100px 0px;
+}
+#highlight{
+    background: lemonchiffon;
+}
