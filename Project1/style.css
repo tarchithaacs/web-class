@@ -1,0 +1,185 @@
+/* styles.css */
+
+body {
+    font-family: 'Alice', serif;
+    font-family: 'Marcellus', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2E8C6
+    
+
+}
+
+main {
+    background-color: #F2E8C6;
+    padding: 40px;
+
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #952323;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #020202;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #F2E8C6;
+  }
+
+
+h1{
+    font-family: 'Marcellus', serif;
+    font-size: 36px;
+}
+H3{
+    font-family: 'Alice', serif;
+    color: rgb(167, 49, 33);
+    font-size: 25px;
+}
+h2{
+    font-family: 'Alice', serif;
+    color: rgb(167, 49, 33);
+    font-size: 30px;
+
+}
+
+p{
+    font-family: 'Marcellus', serif;
+    font-size:20px;
+}
+
+
+.topsection{
+    display: -webkit-flex;
+    display: flex; 
+    margin-top: 75px ;
+  
+}
+
+    .cover{
+        -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 20px;
+    }
+
+
+
+    #synopsis{
+        -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    padding: 10px;
+    }
+#legacy{
+    margin:20, 0pxpx;
+
+}
+.legacy{
+    margin-bottom: 60px;
+}
+
+
+
+
+.author{
+    display: -webkit-flex;
+    display: flex; 
+  
+}
+
+    authortext{
+        -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    padding: 10px;
+    }
+
+
+    .authopic{
+        -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 20px;
+    }
+
+    .works{
+        display: -webkit-flex;
+    display: flex; 
+    }
+    .column{
+        margin: 10px 10px;
+    
+    }
+
+
+    #reflections{
+        display: -webkit-flex;
+        display: flex; 
+      
+    }
+    
+        .stamp{
+            -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        padding: 20px;
+        }
+    
+    
+    
+        .reflections-word{
+            -webkit-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
+        padding: 10px;
+        }
+
+     .italic{
+            font-style:italic;
+            font-size: 15px;
+            font-family: 'Alice', serif;
+        }
+
+        .videos{
+            display: -webkit-flex;
+            display: flex; 
+            align-content: center;
+          
+        }
+        
+            .youtube{
+                -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            padding: 10px;
+            }
+        
+        
+        
+            .amazon{
+                -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            padding: 10px;
+            }
+
+ a:hover {
+    color: rgb(167, 49, 33);
+}
+    
+    
