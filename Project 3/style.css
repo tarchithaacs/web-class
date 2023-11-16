@@ -1,0 +1,455 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Vollkorn', serif;
+
+}
+h1 {
+    font-size: 80px;
+    color: #00AF6B;
+    font-weight: 400;
+
+}
+h2 {
+    font-size: 20px;
+    color: black;
+    font-family: 'Ropa Sans', sans-serif;
+}
+p {
+    font-size: 24px;
+    color: #00AF6B;
+    line-height: 2;
+    font-family: 'Ropa Sans', sans-serif;
+    
+}
+
+h4 {
+    font-size: 50px;
+    color: #00AF6B;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+h5 {
+    font-size: 35px;
+    color: #FFFAE5;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+#intro, #outro {
+    background-image:url(images/wiry-earth-background.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#outro {
+    background-image:url(images/pexels-jorgearturo-andrade-921025.jpg);
+}
+
+#title, #ending {
+    background-color:#FFFAE5;
+    opacity: 8;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10%;
+    text-align: center;
+}
+#ending {
+    padding: 10%;
+}
+
+.btn {
+    border-radius: 28px;
+    font-family: 'Ropa Sans', sans-serif;
+    text-transform: uppercase;
+    color:#FFFAE5;
+    font-size: 18px;
+    background: #00AF6B;
+    padding: 10px 20px 10px 20px;
+    margin-top: 50px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.btn:hover {
+    background:#FF9405;
+    text-decoration: none;
+  }
+
+footer {
+    background-color:#FFFAE5;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+    z-index: 999;
+  }
+footer p {
+    text-transform: uppercase;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 15px;
+}
+footer a {
+    color: #FF9405;
+    text-decoration:none;
+}
+footer a:hover {
+    color:#00AF6B;
+}
+
+.center {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+}
+
+#definition .parent,
+#pathways .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFAE5;
+    }
+    
+#definition .div1{
+    grid-area: 1 / 1 / 2 / 2; 
+    padding: 10%;
+}
+#definition .div2 { 
+    grid-area: 1 / 2 / 2 / 3; 
+    background-image:url(images/EnviroPhil.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#pathways .div1 { 
+    grid-area: 1 / 1 / 2 / 2; 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: url(images/skull-vine.jpg);
+}
+
+#pathways .div2 { 
+    grid-area: 1 / 2 / 2 / 3; 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: url(images/roots.webp);
+}
+
+
+.right {
+    position:absolute;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 10%;
+    transition: all 0.5s;
+}
+
+.left {
+    position:absolute;
+    bottom:0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color:#FFFAE5;
+    text-decoration: none;
+    padding: 10%;
+    transition: all 0.5s;
+}
+.right:hover {
+    background-color: rgba(0,175,107, 0.9);
+    color:#FF9405;
+} 
+
+#pathways:hover {
+    background-color: rgba(0,175,107, 0.9);
+    color:#FF9405;
+} 
+.left:hover {
+    background-color: rgba(0,175,107, 0.9);
+    color:#FF9405;
+} 
+
+h3 {
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: -20px;
+    
+}
+
+/* -1 PAGES */
+#roots-1 .parent, 
+#present-1 .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFAE5;
+    }
+ 
+#roots-1 .div1, 
+#present-1 .div1 { 
+    padding: 10%;
+    background-color: #FFFAE5;
+}
+#roots-1 .div2 { 
+    background-image:url(images/founders.gif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#present-1 .div2 { 
+    background-image:url(images/umbra-ecofascism.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* -2 PAGES */
+
+#roots-2 .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 100vh;
+    width: 100vw;
+    color:#FFFAE5
+      
+    }
+
+    #roots-2 a:link {
+        color:#FFFAE5;
+      }
+      
+      #roots-2 a:visited {
+        color:#FFFAE5;
+      }
+      
+      #roots-2 a:hover {
+        color:#FFFAE5;
+      }
+      
+      #roots-2 a:active {
+        color:#FF9405;
+      }
+    
+    #roots-2 .div1 { 
+        grid-area: 1 / 1 / 2 / 2;
+        background-color:#00AF6B;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        padding:10%;
+     }
+        
+    #roots-2 .div2 { 
+        grid-area: 1 / 2 / 2 / 3; 
+        background-color: black;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        padding:10%;
+    
+    }
+    #roots-2 .div3 { 
+        grid-area: 2 / 1 / 3 / 2; 
+        background-color: black;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        padding:10%;
+    
+    }
+     #roots-2 .div4 { 
+        grid-area: 2 / 2 / 3 / 3;
+        background-color:#00AF6B;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        padding:10%;
+    
+    }
+
+#page4-roots.div2 {
+    background-image:url(images/pexels-davide-locatelli-2768770.jpg);
+}
+
+   
+
+i {
+    color:#7cc778;
+}
+
+audio {
+    margin-bottom: 50px;
+    margin-top: -100px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #696969;
+  }
+
+
+
+/* THEORY PAGES */
+
+#theory-tragedy {
+    background-color: #FFFAE5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 7%;
+}
+
+.video-container {
+    text-align: right; /* Aligns the content within the container to the right */
+    margin-right: 0; /* Adjust margin as needed */
+}
+
+#theory-tragedy a{
+    text-decoration: none;
+}
+#theory-tragedy a:link {
+    color:black;
+  }
+  
+  #theory-tragedy a:visited {
+    color:black;
+  }
+  
+  #theory-tragedy a:hover {
+    color:black;
+  }
+  
+  #theory-tragedy a:active {
+    color:#FF9405;
+  }
+
+
+/* CONCLUSION PAGES */
+
+#conclusion-replace .parent, 
+#conclusion-XXXXXX .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFAE5;
+    }
+ 
+#conclusion-replace .div1, 
+#conclusion-replacs .div1 { 
+    padding: 10%;
+    background-color: #FFFAE5;
+}
+#conclusion-replace .div2 { 
+    background-image:url(images/swastika-leaf.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* reality page */
+
+#reality .parent, 
+#conclusion-XXXXXX .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFAE5;
+    }
+ 
+#reality .div1, 
+#conclusion-replacs .div1 { 
+    padding: 10%;
+    background-color: #FFFAE5;
+}
+#reality .div2 { 
+    background-image:url(images/landback.png.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#reality a,
+#reality a:link,
+#reality a:hover {
+    color:black;
+    text-decoration: none;
+}
+
+  #reality a:active {
+    color:#FF9405;
+  }
+
+
+/* PRESENT PAGES */
+
+
+
+
+@media screen and (max-width: 800px) {
+    #page2-wife .parent, #page3-wife .parent, #page4-wife .parent, 
+    #roots-1 .parent, 
+    #page3-roots .parent, 
+    #page4-roots .parent {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+}
