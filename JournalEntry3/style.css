@@ -1,0 +1,53 @@
+body {
+    background-color: #7fae84; 
+    font-weight: 400;
+    font-family: Trebuchet MS, sans-serif;
+    color:rgb(36, 77, 36);
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 80px;
+        margin-left: 80px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: Didot;
+    color:#e0d2b8;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Trebuchet MS;
+    font-style: underline;
+    color:bla;
+}
+
+
+
+h4 {
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Didot;
+}
+
+
+
+hr{
+    border-color: rgb(237, 113, 113);   
+}
+
+h6 {
+    text-transform: uppercase;
+}
+p{
+    font-size: 18px;
+    color: #e0d2b8;
+}
+
+#highlight{
+    background:blanchedalmond;
+}
